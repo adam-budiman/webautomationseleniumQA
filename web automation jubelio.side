@@ -1,0 +1,265 @@
+{
+  "id": "191151ed-0d24-48a0-ab40-66cef29b6e8a",
+  "version": "2.0",
+  "name": "web automation jubelio",
+  "url": "https://app.jubelio.com/login",
+  "tests": [{
+    "id": "5d4280bd-dd4b-4e87-a354-6941ed9c98cd",
+    "name": "Login automation jubelio",
+    "commands": [{
+      "id": "4688c3c7-dd78-4639-856d-b6063c7756bc",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.jubelio.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f8ef6c6-8ab7-4f22-ba27-5780d7c53639",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "252a7126-8af8-4be1-9bfe-c68a155100f3",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(1) > .form-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a42596ea-7693-46de-a692-7d4604e9f52a",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(1) > .form-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "qa.rakamin.jubelio@gmail.com"
+    }, {
+      "id": "fec1256b-a25b-4d97-9cf2-8402bc5d13cd",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26ffc27-cdb3-4df6-a8df-670efcdf9242",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Jubelio123!"
+    }, {
+      "id": "239a0e0f-1226-4f0a-960a-5beff996862c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ladda-button",
+      "targets": [
+        ["css=.ladda-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a565f226-d89d-415c-b884-5b593d58472b",
+    "name": "mengatur stok barang ",
+    "commands": [{
+      "id": "d608fa89-a2b1-4af9-a0ee-4260ba82dc74",
+      "comment": "",
+      "command": "open",
+      "target": "https://app.jubelio.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17562e9b-0523-4407-8539-214edbafa2f2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "976x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bec79119-c6e3-421f-ae6c-ec0c4e4fca8d",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(1) > .form-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd3a6e0b-cdb1-444f-a84a-ed7f32e86cba",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(1) > .form-group > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "qa.rakamin.jubelio@gmail.com"
+    }, {
+      "id": "aec0951f-f77f-4af6-984f-7bbb2d1914f5",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b2148b7-7b29-4225-a0bf-b360bf012afc",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Jubelio123!"
+    }, {
+      "id": "31514c28-3cf3-4b02-a636-9dbb0aec5827",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ladda-button",
+      "targets": [
+        ["css=.ladda-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a97aa06-06b8-4efc-b921-208bc3b2ac7c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ladda-button",
+      "targets": [
+        ["css=.ladda-button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[2]/div/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Masuk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc629ddc-eb7c-49e2-b487-9b0ef22e60ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.metismenu-container:nth-child(1) > .metismenu-item:nth-child(2) > .metismenu-link > span:nth-child(2)",
+      "targets": [
+        ["css=.metismenu-container:nth-child(1) > .metismenu-item:nth-child(2) > .metismenu-link > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='wrapper']/nav/div/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Barang')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c617597b-638c-4856-8e1d-725be203a812",
+      "comment": "",
+      "command": "click",
+      "target": "css=.visible > .metismenu-item:nth-child(2) span",
+      "targets": [
+        ["css=.visible > .metismenu-item:nth-child(2) span", "css:finder"],
+        ["xpath=//div[@id='wrapper']/nav/div/div/ul/li[2]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Persediaan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99b8ea72-de60-4fc6-9fab-dc6c478a81ff",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Habis",
+      "targets": [
+        ["linkText=Habis", "linkText"],
+        ["css=.nav > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Habis')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home/inventory/out-of-stock')]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Habis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "373e6221-9127-40de-af76-41589eaa900f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Menipis",
+      "targets": [
+        ["linkText=Menipis", "linkText"],
+        ["css=.nav > li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Menipis')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home/inventory/low-stock')]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Menipis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef72b470-3920-44ff-a915-9d75b0661f1d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tidak Laku",
+      "targets": [
+        ["linkText=Tidak Laku", "linkText"],
+        ["css=.nav > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tidak Laku')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[3]/div/div/div/div/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/home/inventory/dead-stock')]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Tidak Laku')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ce238e12-fbd2-4a34-8372-47ddda81433a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5d4280bd-dd4b-4e87-a354-6941ed9c98cd"]
+  }],
+  "urls": ["https://app.jubelio.com/login"],
+  "plugins": []
+}
